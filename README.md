@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jornada Fullstack com Next.js
 
-## Getting Started
+Projeto de estudos fullstack moderno utilizando:
 
-First, run the development server:
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- APIs REST
+- CRUD Completo
+- PostgreSQL
+- Prisma ORM
+- Autenticação
+- Arquitetura Fullstack
+
+O objetivo deste repositório é documentar toda a evolução prática no desenvolvimento de aplicações fullstack modernas utilizando o ecossistema React e Next.js.
+
+---
+
+# Tecnologias Utilizadas
+
+- Next.js App Router
+- React
+- TypeScript
+- Tailwind CSS
+- API Routes
+- Fetch API
+- PostgreSQL
+- Prisma ORM
+- Git e GitHub
+
+---
+
+# Estrutura das Aulas
+
+## Aula 1 — Fundamentos do Next.js Fullstack
+
+Nesta etapa aprendemos:
+
+- Estrutura App Router
+- Componentes React
+- TypeScript
+- Props
+- APIs internas no Next.js
+- Consumo de API
+- Organização de projeto
+- Tailwind CSS
+
+### Funcionalidades
+
+- Dashboard
+- API de usuários
+- Componentes reutilizáveis
+- Consumo de dados dinâmicos
+
+---
+
+## Aula 2 — CRUD Completo
+
+Nesta etapa evoluímos para um CRUD fullstack completo.
+
+### Aprendizados
+
+- GET
+- POST
+- PUT
+- DELETE
+- Formulários React
+- useState
+- useEffect
+- Loading
+- Validação
+- Renderização condicional
+- Rotas dinâmicas
+- Arquitetura fullstack
+
+### Funcionalidades
+
+- Criar usuários
+- Editar usuários
+- Deletar usuários
+- Listar usuários
+- API REST completa
+
+---
+
+## Próximas Etapas
+
+O projeto continuará evoluindo para:
+
+- PostgreSQL
+- Prisma ORM
+- Banco de dados real
+- Autenticação
+- Deploy Fullstack
+- Segurança
+- Middleware
+- Upload de arquivos
+- Sistema de login
+- Dashboard administrativo
+
+---
+
+# Como Executar o Projeto
+
+Clone o repositório:
+
+```bash
+git clone URL_DO_REPOSITORIO
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse no navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
