@@ -1,3 +1,6 @@
+// AULA 1
+
+import Link from "next/link";
 import Title from "../../components/Title";
 
 import { users, lessons } from "../../lib/data";
@@ -7,6 +10,30 @@ export default async function DashboardPage() {
     <div className="min-h-screen bg-zinc-100 p-6 md:p-10">
 
       <main className="mx-auto flex max-w-5xl flex-col gap-10">
+
+        <Link
+          href="/"
+          className="flex items-center gap-3 rounded-xl w-max bg-white p-6 shadow transition hover:scale-[1.02] hover:shadow-lg"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            className="h-6 w-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M15 19l-7-7 7-7"
+            />
+          </svg>
+
+          <p className="text-xl font-bold">
+            Voltar para home
+          </p>
+        </Link>
 
         <section className="space-y-4">
 

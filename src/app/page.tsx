@@ -38,6 +38,20 @@ export default function Home() {
               </p>
             </Link>
 
+            <Link
+              href="/crud-users"
+              className="rounded-xl bg-white p-6 shadow transition hover:scale-[1.02] hover:shadow-lg"
+            >
+              <h3 className="text-xl font-bold">
+                Aula 2 — CRUD Completo - fake db
+              </h3>
+
+              <p className="mt-2 text-zinc-600">
+                Criação de usuários, formulários, estado com React,
+                APIs REST e operações CRUD completas.
+              </p>
+            </Link>
+
           </div>
         </div>
 
