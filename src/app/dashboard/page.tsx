@@ -103,7 +103,7 @@ export default async function DashboardPage() {
         <section className="space-y-4">
 
           {/* Componente reutilizável */}
-          <Title text="Aula 1 — Fundamentos do Next.js Fullstack" />
+          <Title text="Aula 1 — Fundamentos do Next.js Fullstack com criação de App Router, Componentes React, API Routes e Consumo de API" />
 
           <p className="max-w-3xl text-base leading-7 text-zinc-600 md:text-lg">
             Nesta primeira aula aprendemos a criar um projeto

@@ -591,11 +591,11 @@ export default function CrudUsersPage() {
         {/* Cabeçalho */}
         <section className="space-y-4">
 
-          <Title text="CRUD Completo com React/Next.js + Fake DB com Node.js" />
+          <Title text="Aula 2 - CRUD Completo com React/Next.js" />
 
           <p className="max-w-3xl text-base leading-7 text-zinc-600 md:text-lg">
             Nesta aula criamos um CRUD completo utilizando
-            React, estado, APIs REST e arquitetura fullstack. Os dados são armazenados na memória do servidor Node.js.
+            React, estado, APIs REST e arquitetura fullstack. Os dados são armazenados na memória do servidor Node.js, utilizado como banco de dados fake.
           </p>
 
         </section>
