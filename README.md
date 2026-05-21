@@ -7,7 +7,7 @@ Projeto de estudos fullstack moderno utilizando:
 - TypeScript
 - Tailwind CSS
 - APIs REST
-- CRUD Completo
+- CRUD Completo 
 - PostgreSQL
 - Prisma ORM
 - Autenticação

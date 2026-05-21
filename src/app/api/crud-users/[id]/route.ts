@@ -1,14 +1,11 @@
-// Importa o NextResponse do Next.js
-// Ele é utilizado para retornar respostas da API
+// Importa o NextResponse do Next.js para retornar respostas da API
 import { NextResponse } from "next/server";
 
-// Importa o array de usuários fake
-// Esse arquivo funciona como um banco temporário em memória
+// Importa o array de usuários fake - banco de dados temporário em memória
+// O
 import { users } from "../../../../lib/users";
 
 // Cria um tipo para os parâmetros da rota dinâmica
-// Exemplo da rota:
-// /api/crud-users/1
 type Params = {
 
   // params vem automaticamente do Next.js
@@ -19,8 +16,7 @@ type Params = {
   }>;
 };
 
-// Método PUT
-// Responsável por EDITAR um usuário
+// Método PUT responsável por EDITAR um usuário
 export async function PUT(
 
   // Dados enviados pelo frontend
@@ -64,12 +60,10 @@ export async function PUT(
   return NextResponse.json(user);
 }
 
-// Método DELETE
-// Responsável por REMOVER um usuário
+// Método DELETE responsável por REMOVER um usuário
 export async function DELETE(
 
-  // Request não será usado aqui,
-  // mas o Next.js envia automaticamente
+  // Request não será usado aqui, mas o Next.js envia automaticamente
   request: Request,
 
   // Params da rota

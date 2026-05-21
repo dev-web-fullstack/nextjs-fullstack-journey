@@ -1,43 +1,42 @@
 {
-  "compilerOptions": {
-    "target": "ES2017",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
+  "compilerOptions": { // Configurações principais do TypeScript
+    "target": "ES2017", // Define a versão do JavaScript gerado
+    "lib": [ // Bibliotecas disponíveis no ambiente
+      "dom", // Recursos do navegador
+      "dom.iterable", // Permite iterar elementos do DOM
+      "esnext" // Recursos modernos do JavaScript
     ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "react-jsx",
-    "incremental": true,
-    "plugins": [
+    "allowJs": true, // Permite arquivos .js no projeto
+    "skipLibCheck": true, // Ignora verificação de tipos do node_modules
+    "strict": true, // Ativa verificações rigorosas do TypeScript
+    "noEmit": true, // Não gera arquivos .js após compilação
+    "esModuleInterop": true, // Melhora compatibilidade entre módulos
+    "module": "esnext", // Utiliza sistema moderno de módulos ESModules
+    "moduleResolution": "bundler", // Resolve imports no padrão moderno do Next.js
+    "resolveJsonModule": true, // Permite importar arquivos .json
+    "isolatedModules": true, // Faz cada arquivo funcionar isoladamente
+    "jsx": "react-jsx", // Utiliza JSX moderno do React
+    "incremental": true, // Ativa cache incremental para builds mais rápidos
+    "plugins": [ // Plugins extras do TypeScript
       {
-        "name": "next"
+        "name": "next" // Plugin oficial do Next.js
       }
     ],
-    "paths": {
-      "@/*": [
-        "./*"
+    "paths": { // Cria aliases de importação
+      "@/*": [ // Tudo que começar com @/
+        "./src/*" // apontará para a pasta src
       ]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts",
-    "**/*.mts",
-    "src/app/crud-users"
+  "include": [ // Arquivos incluídos no TypeScript
+    "next-env.d.ts", // Arquivo automático do Next.js
+    "**/*.ts", // Inclui todos arquivos .ts
+    "**/*.tsx", // Inclui todos arquivos .tsx
+    ".next/types/**/*.ts", // Tipos gerados automaticamente pelo Next.js
+    ".next/dev/types/**/*.ts", // Tipos de desenvolvimento do Next.js
+    "**/*.mts" // Inclui arquivos .mts
   ],
-  "exclude": [
-    "node_modules"
+  "exclude": [ // Pastas ignoradas pelo TypeScript
+    "node_modules" // Ignora dependências instaladas
   ]
 }

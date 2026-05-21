@@ -7,7 +7,7 @@ export default function Home() {
 
         <div className="space-y-4">
           <h1 className="text-5xl font-bold text-zinc-900">
-            Jornada Fullstack
+            Jornada Fullstack Next.js
           </h1>
 
           <p className="max-w-2xl text-lg text-zinc-600">
